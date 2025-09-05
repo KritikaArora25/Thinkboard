@@ -71,8 +71,8 @@ cd Front-end
 npm install
 npm start
 ```
-The frontend runs on http://localhost:3000 by default.
-Ensure backend API is running (http://localhost:5000 or your configured port).
+The frontend runs on http://localhost:5173 by default.
+Ensure backend API is running (http://localhost:5001 or your configured port).
 
 🛠 Usage
 
