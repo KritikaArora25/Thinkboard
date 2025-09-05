@@ -4,8 +4,8 @@
   "description": "Thinkboard is a **web-based note-taking and management application** that helps users organize, track, and manage their notes efficiently. It features real-time updates, rate-limiting management, and an intuitive interface for seamless user experience.",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend"
+    "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start": "npm run start --prefix Backend"
 
   },
   "repository": {
