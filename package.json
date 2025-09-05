@@ -1,0 +1,22 @@
+{
+  "name": "thinkboard",
+  "version": "1.0.0",
+  "description": "Thinkboard is a **web-based note-taking and management application** that helps users organize, track, and manage their notes efficiently. It features real-time updates, rate-limiting management, and an intuitive interface for seamless user experience.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KritikaArora25/Thinkboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KritikaArora25/Thinkboard/issues"
+  },
+  "homepage": "https://github.com/KritikaArora25/Thinkboard#readme"
+}
