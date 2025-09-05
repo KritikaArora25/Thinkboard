@@ -1,6 +1,6 @@
 # Thinkboard
 
-Thinkboard is a **web-based note-taking and management application** that helps users organize, track, and manage their notes efficiently. It features real-time updates, rate-limiting management, and an intuitive interface for seamless user experience.
+Thinkboard is a **web-based note-taking and management application** that helps users organize, track, and manage their notes efficiently. It features real-time updates, rate-limiting management, and an intuitive interface for seamless user experience.<br/>
 Demo(Live on Production): https://thinkboard-5vxt.onrender.com/
 ---
 
