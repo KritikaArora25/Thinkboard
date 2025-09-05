@@ -1,7 +1,7 @@
 # Thinkboard
 
 Thinkboard is a **web-based note-taking and management application** that helps users organize, track, and manage their notes efficiently. It features real-time updates, rate-limiting management, and an intuitive interface for seamless user experience.
-
+Demo(Live on Production): https://thinkboard-5vxt.onrender.com/
 ---
 
 ## 🚀 Features
@@ -73,6 +73,14 @@ npm start
 ```
 The frontend runs on http://localhost:5173 by default.
 Ensure backend API is running (http://localhost:5001 or your configured port).
+
+Deployment
+
+Production Backend: http://<your-domain>:5001
+
+Production Frontend: http://<your-domain>:5001
+
+Local Frontend (Dev Mode): http://localhost:5173
 
 🛠 Usage
 
