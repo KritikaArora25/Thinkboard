@@ -12,13 +12,11 @@ const HomePage = () => {
   const [notes, setNotes] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = process.env.REACT_APP_API_URL || "https://thinkboard-5vxt.onrender.com"; 
-
   useEffect(() =>{
     
     const fetchNotes = async () =>{
       try {
-        const res = await api.get("${BASE_URL}/notes");
+        const res = await api.get("/notes");
         console.log(res.data);
         setNotes(res.data);
         setIsRateLimited(false);
@@ -35,7 +33,7 @@ const HomePage = () => {
       }
     }
     fetchNotes();
-  },[BASE_URL])
+  },[])
   return (
     <div className='min-h-screen'>
       <Navbar/>
