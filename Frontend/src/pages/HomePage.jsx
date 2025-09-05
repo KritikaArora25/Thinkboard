@@ -12,7 +12,7 @@ const HomePage = () => {
   const [notes, setNotes] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const BASE_URL = process.env.REACT_APP_API_URL; 
+  const BASE_URL = process.env.REACT_APP_API_URL || "https://thinkboard-5vxt.onrender.com"; 
 
   useEffect(() =>{
     
